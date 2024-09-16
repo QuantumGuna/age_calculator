@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="age">
+        <h1>Age Calculator</h1><br>
+        <label for="dob">Enter your Date of Birth:</label><br><br>
+        <input type="date" id="dob" placeholder="MM/DD/YYYY" name="dob"><br><br>
+        <button onclick="calculateAge()">Calculate Age</button>
+    </div>
+
+    <div class="calculation" id="calculation">
+        <h2>Age Details:</h2>
+        <p class="year"><strong>Years:</strong> <span id="yrs">0</span></p>
+        <p class="month"><strong>Months:</strong> <span id="months">0</span></p>
+        <p class="day"><strong>Days:</strong> <span id="days">0</span></p>
+        <p class="hrs"><strong>Hours:</strong> <span id="hrs">0</span></p>
+        <p class="min"><strong>Minutes:</strong> <span id="min">0</span></p>
+        <p class="sec"><strong>Seconds:</strong> <span id="sec">0</span></p><br>
+        <h3>Total:</h3>
+        <p class="dayT"><strong>Total Days:</strong> <span id="totalDays">0</span></p>
+        <p class="hrsT"><strong>Total Hours:</strong> <span id="totalHours">0</span></p>
+        <p class="minT"><strong>Total Minutes:</strong> <span id="totalMinutes">0</span></p>
+        <p class="secT"><strong>Total Seconds:</strong> <span id="totalSeconds">0</span></p>
+    </div>
+    <div class="details">
+        <p>Code by</p>
+        <h2>Guna</h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

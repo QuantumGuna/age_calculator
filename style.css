@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(180.2deg, rgb(30, 33, 48) 6.8%, rgb(74, 98, 110) 131%);
+    background-size: cover;
+    height: 100vh;
+}
+.age {
+    height: 30vh;
+    padding: 50px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(89.7deg, rgb(0, 0, 0) -10.7%, rgb(53, 92, 125) 88.8%);
+    margin: 10% 20%;
+    margin-bottom: 10%;
+    align-items: center;
+    text-align: center;
+}
+.age h1 {
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+.age input {
+    height: 30px;
+    width: 220px;
+    border: 2px solid;
+    border-radius: 10px;
+    background: none;
+    color: rgb(0, 0, 0);
+}
+.age button {
+    height: 30px;
+    width: 100px;
+    border: 2px solid;
+    border-radius: 15px;
+    background-color: rgba(127, 255, 212, 0.11);
+}
+button:hover {
+    background-color: azure;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.849);
+}
+button:active {
+    background-color: green;
+}
+.calculation {
+    display: none;
+    text-align: center;
+    color: rgb(6, 29, 49);
+}
+.calculation h2 {
+    font-size: 40px;
+    color: black;
+}
+.calculation .year {
+    font-size: 36px;
+    color: red;
+}
+.calculation .month {
+    font-size: 32px;
+    color: blue;
+}
+.calculation .day {
+    font-size: 28px;
+    color: green;
+}
+.calculation .hrs {
+    font-size: 24px;
+    color: orange;
+}
+.calculation .min {
+    font-size: 20px;
+    color: violet;
+}
+.calculation .sec {
+    font-size: 16px;
+    color: aqua;
+}
+.calculation h3 {
+    font-size: 40px;
+    color: black;
+}
+.calculation .dayT {
+    font-size: 28px;
+    color: red;
+}
+.calculation .hrsT {
+    font-size: 22px;
+    color: orange;
+}
+.calculation .minT {
+    font-size: 16px;
+    color: violet;
+}
+.calculation .secT {
+    font-size: 12px;
+    color: aqua;
+}
+.details {
+    height: 80px;
+    width: 80px;
+    border: 2px solid;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+@media (max-width: 450px) {
+    body {
+        height: 120vh;
+    }
+    .age {
+        height: 50vh;
+        margin: 10%;
+    }
+    .age input {
+        width: 180px;
+    }
+}
